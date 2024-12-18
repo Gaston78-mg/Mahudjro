@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
+
+
+}
+body{
+    position: relative;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    background-color: hsla(171, 8%, 34%, 0.627);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+    height: 50px;
+    box-shadow: 0 0 10px 0 rgba(0,0, 0, 0.2);
+
+}
+header .logo{
+    color: rgb(236, 12, 12);
+    font-size: 40px;
+    font-weight: bold;
+
+}
+header .logo span{
+    color: black;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin : 0 30px;
+
+}
+.menu li a{
+    font-size: 20px;
+    color: rgb(233, 16, 125);
+    font-weight: 600;
+    transition: 0.2s;
+}
+.menu li a:hover{
+    color: rgb(43, 226, 73);
+}
+header button{
+    background-color: rgba(14, 12, 12, 0.336);
+    cursor: pointer;
+    color: rgb(214, 74, 8);
+    padding: 5px 10px;
+}
+#home{
+    margin-top: 200px;
+    height: calc(100vh - 50px);
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: lawngreen;
+}
+#home .left{
+    font-size: 20px;
+    width: 50%;
+}
+#home .left h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#home .left p{
+    font-size: 20px;
+    color: rgb(18, 18, 17);
+    margin-bottom: 15px;
+}
+#home .left a{
+    background-color: rgb(233, 16, 125);
+    padding: 10px 20px;
+    font-size: 25px;
+    color: rgb(1, 10, 10);
+    transition: 0.5s;
+}
+#home .left a:hover{color: rgb(252, 248, 248);}
+
+#home .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home .right img{
+    width: 100%;
+}
+#Riz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_title {text-transform: uppercase;
+    position: relative;
+    font-size: 25px;
+}
+.section_title::before{
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    content: "";
+    background-color: brown;
+    width: 200px;
+    height: 8px;
+    border-radius: 6px;
+}
+.section_title::after{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    content: "";
+    background-color: brown;
+    width: 200px;
+    height: 8px;
+    border-radius: 6px;
+}
+.tof{
+    margin: 100px auto;
+    padding: 0 8%;
+}
+.tof li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    width: 20%;
+    margin: 3%;
+    transition: 0.5s;
+}.
+.tof li div img {
+    width: 200%;
+    height: 100%;
+}
+.tof li div span{
+    font-size: 40px;
+    position: relative ;
+    display: flex;
+    left: 50%;
+}
+.tof li div a{
+    color: green;
+    font-size: 50px;
+}
+.tof li :hover {
+    transform: scale(1);
+    margin : 5px ;
+}
+#Riz li span.Prix{
+    font-weight: bold;
+    color: rgb(189, 24, 27);
+    margin-bottom:20px ;
+}
+#Riz li a{
+    background-color: rgb(31, 235, 24);
+    padding: 10px 20px;
+    color: azure;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+#Riz li a:hover{color: gray;}
+#service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100;
+    flex-direction: column;
+}
+.section_title {text-transform: uppercase;
+    position: relative;
+    font-size: 25px;
+}
+.service i{
+    font-size: 100px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: brown;
+    color :rgb(10, 11, 10)
+}
